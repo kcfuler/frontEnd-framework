@@ -1,4 +1,4 @@
-const SearchParams = () =>{
+const SearchParams = () => {
   const location = "Seattle, WA";
 
   return (
@@ -11,7 +11,7 @@ const SearchParams = () =>{
         <button>Submit</button>
       </form>
     </div>
-  )
-}
+  );
+};
 
 export default SearchParams;
