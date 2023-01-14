@@ -13,6 +13,7 @@ import { Suspense } from "react";
 // };
 
 export default async function Home() {
+  throw new Error("hello");
   return (
     <main className={styles.main}>
       <div className={styles.description}>
