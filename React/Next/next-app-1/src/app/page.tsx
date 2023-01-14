@@ -13,13 +13,9 @@ import { Suspense } from "react";
 // };
 
 export default async function Home() {
-  throw new Error("hello");
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <Suspense fallback={<Loader />}>
-          <Header />
-        </Suspense>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
