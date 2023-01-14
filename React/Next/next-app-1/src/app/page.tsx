@@ -3,6 +3,10 @@ import { Inter } from "@next/font/google";
 import styles from "./page.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
+import Header from "@/component/Header";
+import Loader from "@/component/Loader";
+import { Suspense } from "react";
+
 // const getData = async () => {
 //   const data = await fetch("");
 //   return data.json();
@@ -12,6 +16,9 @@ export default async function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Suspense fallback={<Loader />}>
+          <Header />
+        </Suspense>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>app/page.tsx</code>
