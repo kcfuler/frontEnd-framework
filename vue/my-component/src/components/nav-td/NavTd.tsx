@@ -1,9 +1,9 @@
-import { defineComponent, reactive } from "vue";
+import { defineComponent } from 'vue'
 
 const NavTd = defineComponent({
   setup() {
-    return () => <div> </div>;
+    return () => <div> </div>
   },
-});
+})
 
-export default NavTd;
+export default NavTd

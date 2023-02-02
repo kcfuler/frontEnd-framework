@@ -1,8 +1,7 @@
-import { delay } from "@/app/lib/delay";
+'use client'
+import {useState} from 'react'
+export default async function BlogPost() {
+  const [num, setState] = useState(2);
 
-export default async function BlogPost({ params }) {
-  await delay(5000);
-  console.log(params);
-  // const post = await getData();
   return <div>blog post</div>;
 }
