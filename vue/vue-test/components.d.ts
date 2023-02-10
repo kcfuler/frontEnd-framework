@@ -8,6 +8,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AButton: typeof import('@arco-design/web-vue')['Button']
+    Temp: typeof import('./src/components/draft/Temp.vue')['default']
     TestApi: typeof import('./src/components/TestApi.vue')['default']
   }
 }
