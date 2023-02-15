@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="152ed6a2-d4e6-43ed-bddf-a31fb071c003" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../vue/vue-test/src/components/TestComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/vue-test/src/components/common/Nav/Nav-td.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/vue-test/src/components/common/Nav/helpers/PathInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue/vue-test/src/tailwind/BoxDecoration.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/nuxt-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/nuxt-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/nuxt-demo/pages/tailwind/layout/aspect-ratio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/nuxt-demo/pages/tailwind/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/nuxt-demo/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/src/components/TestApi.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/src/tailwind/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/src/tailwind/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/src/tailwind/TestInstall.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/src/tailwind/TestInstall.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue/vue-test/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../vue/vue-test/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2LmPmKHG2uwMSay68rl0PU9tItc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/code/reposity/frontEnd-framework/solidJS/my-app",
+    "settings.editor.selected.configurable": "MTCustomThemeConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="152ed6a2-d4e6-43ed-bddf-a31fb071c003" name="变更" comment="" />
+      <created>1676473443064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676473443064</updated>
+      <workItem from="1676473444125" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
