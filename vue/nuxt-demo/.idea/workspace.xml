@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda5098c-7391-4ef1-b2d2-220f3c846323" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/tailwind/layout/aspect-ratio.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-test/postcss.config.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-test/src/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-test/src/tailwind/Layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-test/src/tailwind/TestInstall.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vue-test/tailwind.config.cjs" afterDir="false" />
+    <list default="true" id="bda5098c-7391-4ef1-b2d2-220f3c846323" name="变更" comment="feat: 添加tailwind">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/taildemo/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tailwind/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue-test/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tailwind/layout/aspect-ratio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tailwind/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../vue-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue-test/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vue-test/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue-test/src/tailwind/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/src/tailwind/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue-test/src/tailwind/TestInstall.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-test/src/tailwind/TestInstall.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +29,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/code/reposity/frontEnd-framework/vue/nuxt-demo",
-    "nodejs_package_manager_path": "pnpm",
-    "ts.external.directory.path": "D:\\code\\tool\\WebStorm 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/reposity/frontEnd-framework/vue/nuxt-demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\code\\tool\\WebStorm 2022.3.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -53,11 +55,31 @@
       <option name="presentableId" value="Default" />
       <updated>1675429866763</updated>
       <workItem from="1675429867500" duration="16000" />
-      <workItem from="1676019590329" duration="148000" />
+      <workItem from="1676019590329" duration="467000" />
+      <workItem from="1676213734035" duration="22000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: 添加tailwind">
+      <created>1676019772457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676019772457</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 添加tailwind">
+      <created>1676019786040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676019786040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 添加tailwind" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加tailwind" />
   </component>
 </project>
