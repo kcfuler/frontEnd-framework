@@ -2,10 +2,10 @@
   <div class="path-input">
     <div class="path-input_group" v-for="item in localList">
       <h3 :for="item.path">路径名：</h3>
-      <el-Input :id="item.label" type="text" v-model="item.label" />
+      <el-Input :id="item.label" type="text" v-model="item.label" placeholder="输入路劲名"/>
       <br />
       <h3>地址:</h3>
-      <el-Input type="text" v-model="item.path" />
+      <el-Input type="text" v-model="item.path" placeholder="输入路径地址"/>
       <br />
     </div>
 
