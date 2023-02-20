@@ -1,11 +1,11 @@
 <template>
   <div>
-    <PathInput v-model:path-list="testPath"></PathInput>
+    <PathInput v-model:path="testPath"></PathInput>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref , watch } from 'vue'
 import PathInput from "./common/Nav/helpers/PathInput.vue";
 
 
@@ -51,6 +51,9 @@ const testPath = ref<Path[]>([
   }
 ])
 
+watch(()=> testPath.value , () =>{
+  console.log("testPath", testPath.value);
+})
 </script>
 
 <style scoped>
