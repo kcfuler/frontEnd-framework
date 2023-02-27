@@ -1,10 +1,9 @@
-import TestComponent from './component/TestComponent'
+import Button from './packages/button'
 
 function App() {
   return (
     <div className="App">
-      <TestComponent></TestComponent>
-
+      <Button type='primary'>click me haha</Button>
     </div>
   )
 }
