@@ -1,61 +1,48 @@
 <template>
   <div>
-    <PathInput v-model:path="testPath"></PathInput>
+    <NavTd :pathList="testPath"></NavTd>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref , watch } from 'vue'
-import PathInput from "./common/Nav/helpers/PathInput.vue";
+import { ref, reactive } from "vue";
+import NavTd from "./common/Nav/Nav-td.vue";
+import type { Path } from "./common/Nav/types";
 
-
-type Path = {
-  path: string
-  label: string
-  child: Path[] | null
-}
-
-const testPath = ref<Path[]>([
+const testPath = reactive<Path[]>([
   {
-    path:'/',
-    label: 'test01',
+    path: "/",
+    label: "test01",
     child: [
       {
-        path: '/a',
-        label: 'test01子路由',
-        child:null
+        path: "/a",
+        label: "test01子路由",
+        child: null,
       },
       {
-        path: '/b',
-        label: 'test02子路由',
-        child: null
-      }
-    ]
+        path: "/b",
+        label: "test02子路由",
+        child: null,
+      },
+    ],
   },
   {
-    path: 'a',
-    label: 'test02',
+    path: "a",
+    label: "test02",
     child: [
       {
-        path: 'a/c',
-        label: 'test02子路由',
-        child:null
+        path: "a/c",
+        label: "test02子路由",
+        child: null,
       },
       {
-        path: 'a/d',
-        label: 'test02子路由2',
-        child: null
-      }
-    ]
-
-  }
-])
-
-watch(()=> testPath.value , () =>{
-  console.log("testPath", testPath.value);
-})
+        path: "a/d",
+        label: "test02子路由2",
+        child: null,
+      },
+    ],
+  },
+]);
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

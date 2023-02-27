@@ -57,7 +57,7 @@ localList.value = props.path
 console.log('pathList',props.path)
 
 watch(
-    () => localList.value,
+    () => localList,
     () => {
       emits('update:path', localList.value)
       console.log('update:path')
