@@ -1,9 +1,3 @@
-<template>
-  <div>
-    <NavTd :pathList="testPath"></NavTd>
-  </div>
-</template>
-
 <script setup lang="ts">
 import { ref, reactive } from "vue";
 import NavTd from "./common/Nav/Nav-td.vue";
@@ -44,5 +38,11 @@ const testPath = reactive<Path[]>([
   },
 ]);
 </script>
+
+<template>
+  <div class="w-80 mx-auto">
+    <NavTd :pathList="testPath"></NavTd>
+  </div>
+</template>
 
 <style scoped></style>
