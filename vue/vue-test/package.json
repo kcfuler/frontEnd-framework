@@ -22,9 +22,11 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.35.3",
     "@arco-design/web-vue": "^2.42.1",
     "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.35.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.3",

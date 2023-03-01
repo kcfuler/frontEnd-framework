@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import { Path } from "./types";
-import { computed, ref } from "vue";
+import { computed, ref } from 'vue'
+import type { Path } from './types'
 interface IProp {
-  pathList: Path[];
+  pathList: Path[]
 }
-const props = defineProps<IProp>();
-const localList = computed(() => props.pathList);
+const props = defineProps<IProp>()
+const localList = computed(() => props.pathList)
 
 // 标识当前打开的子目录
-const showPath = ref("");
+const showPath = ref('')
 function changeShowPath(path: string) {
-  showPath.value = path;
+  showPath.value = path
 }
 </script>
 
