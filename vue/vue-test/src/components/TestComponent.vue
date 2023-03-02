@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
-import NavTd from './common/Nav/Nav-td.vue'
+// import NavTd from './common/Nav/Nav-td.vue'
 import type { Path } from './common/Nav/types'
+import TestUpload from './test/TestUpload.vue'
 
 const testPath = reactive<Path[]>([
   {
@@ -11,7 +12,6 @@ const testPath = reactive<Path[]>([
       {
         path: '/a',
         label: 'test01子路由',
-
         child: null,
       },
       {
@@ -41,8 +41,10 @@ const testPath = reactive<Path[]>([
 </script>
 
 <template>
-  <div class="w-80 mx-auto">
-    <NavTd :path-list="testPath" />
+  <div class="w-160 mx-auto">
+    <!-- <NavTd :path-list="testPath" /> -->
+    <!-- <TestDraggable /> -->
+    <TestUpload />
   </div>
 </template>
 

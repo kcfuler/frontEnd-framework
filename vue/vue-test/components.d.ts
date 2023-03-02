@@ -9,15 +9,19 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AButton: typeof import("@arco-design/web-vue")["Button"]
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElDialog: typeof import('element-plus/es')['ElDialog']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElInput: typeof import('element-plus/es')['ElInput']
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
+    ElUpload: typeof import('element-plus/es')['ElUpload']
     NavTd: typeof import('./src/components/common/Nav/Nav-td.vue')['default']
     PathInput: typeof import('./src/components/common/Nav/helpers/PathInput.vue')['default']
     QuestionSquare: typeof import('./src/components/draft/QuestionSquare.vue')['default']
     Temp: typeof import("./src/components/draft/QuestionSquare.vue")["default"]
     TestApi: typeof import("./src/components/TestApi.vue")["default"]
     TestComponent: typeof import('./src/components/TestComponent.vue')['default']
+    TestDraggle: typeof import('./src/components/test/TestDraggle.vue')['default']
     TestTemplate: typeof import('./src/components/draft/TestTemplate.vue')['default']
+    TestUpload: typeof import('./src/components/test/TestUpload.vue')['default']
   }
 }
