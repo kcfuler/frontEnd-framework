@@ -1,0 +1,8 @@
+/* components/component-tag-name.wxss */
+page {
+  background: black;
+}
+
+:host {
+  color: yellow;
+}
