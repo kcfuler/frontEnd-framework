@@ -10,6 +10,11 @@ import { QrCodeModule } from './qr-code/qr-code.module';
 @Module({
   imports: [DemoModule, UserModule, ReqestModule, QrCodeModule],
   controllers: [AppController, DemoController],
-  providers: [AppService],
+  providers: [
+    {
+      provide: 'ABC',
+      useClass: AppService,
+    },
+  ],
 })
 export class AppModule {}
