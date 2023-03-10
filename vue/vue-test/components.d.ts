@@ -10,8 +10,12 @@ declare module '@vue/runtime-core' {
     AButton: typeof import("@arco-design/web-vue")["Button"]
     ElButton: typeof import('element-plus/es')['ElButton']
     ElDialog: typeof import('element-plus/es')['ElDialog']
+    ElForm: typeof import('element-plus/es')['ElForm']
+    ElFormItem: typeof import('element-plus/es')['ElFormItem']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElInput: typeof import('element-plus/es')['ElInput']
+    ElRadioButton: typeof import('element-plus/es')['ElRadioButton']
+    ElRadioGroup: typeof import('element-plus/es')['ElRadioGroup']
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
     ElUpload: typeof import('element-plus/es')['ElUpload']
     NavTd: typeof import('./src/components/common/Nav/Nav-td.vue')['default']
@@ -23,5 +27,6 @@ declare module '@vue/runtime-core' {
     TestDraggle: typeof import('./src/components/test/TestDraggle.vue')['default']
     TestTemplate: typeof import('./src/components/draft/TestTemplate.vue')['default']
     TestUpload: typeof import('./src/components/test/TestUpload.vue')['default']
+    Validator: typeof import('./src/components/common/service/Validator.vue')['default']
   }
 }

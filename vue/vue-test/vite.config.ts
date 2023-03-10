@@ -1,11 +1,11 @@
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
-import AutoImport from "unplugin-auto-import/vite";
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import AutoImport from 'unplugin-auto-import/vite'
 import {
   ArcoResolver,
   ElementPlusResolver,
-} from "unplugin-vue-components/resolvers";
-import Components from "unplugin-vue-components/vite";
+} from 'unplugin-vue-components/resolvers'
+import Components from 'unplugin-vue-components/vite'
 export default defineConfig({
   plugins: [
     vue(),
@@ -22,13 +22,13 @@ export default defineConfig({
     }),
   ],
   server: {
-    host: "0.0.0.0",
+    host: '0.0.0.0',
     proxy: {
-      "/api": {
-        target: "http://121.36.109.90:8000/api/",
+      '/api': {
+        target: 'http://localhost:3000/',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
+        rewrite: path => path.replace(/^\/api/, ''),
       },
     },
   },
-});
+})
