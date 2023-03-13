@@ -9,6 +9,8 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AButton: typeof import("@arco-design/web-vue")["Button"]
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElCarousel: typeof import('element-plus/es')['ElCarousel']
+    ElCarouselItem: typeof import('element-plus/es')['ElCarouselItem']
     ElDialog: typeof import('element-plus/es')['ElDialog']
     ElForm: typeof import('element-plus/es')['ElForm']
     ElFormItem: typeof import('element-plus/es')['ElFormItem']
@@ -23,6 +25,7 @@ declare module '@vue/runtime-core' {
     QuestionSquare: typeof import('./src/components/draft/QuestionSquare.vue')['default']
     Temp: typeof import("./src/components/draft/QuestionSquare.vue")["default"]
     TestApi: typeof import("./src/components/TestApi.vue")["default"]
+    TestCarousel: typeof import('./src/components/test/TestCarousel.vue')['default']
     TestComponent: typeof import('./src/components/TestComponent.vue')['default']
     TestDraggle: typeof import('./src/components/test/TestDraggle.vue')['default']
     TestTemplate: typeof import('./src/components/draft/TestTemplate.vue')['default']

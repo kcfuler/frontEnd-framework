@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import validator from './components/common/service/validator.vue'
+import TestComponent from './components/TestComponent.vue'
 </script>
 
 <template>
   <!--  tailwind -->
   <!--  <Layout></Layout> -->
-  <!-- <TestComponent></TestComponent> -->
+  <TestComponent />
   <!-- <TestNaive></TestNaive> -->
-  <validator />
+  <!-- <validator /> -->
 </template>
 
 <style scoped></style>
