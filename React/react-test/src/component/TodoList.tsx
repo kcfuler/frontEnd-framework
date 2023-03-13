@@ -27,18 +27,29 @@ export default function TodoList() {
     setListItems(() => {
       return listItems.map((item, i) => {
         if (i === index) {
-          item.id = `${item.id}${Math.random()}` // 排除key的影响
+          item.id = `${Math.random()}` // 排除key的影响
           item.done = !item.done
         }
-
         return item
       })
     })
     console.log(listItems)
   }
 
+  const [newTitle, setNewTitle] = useState('')
+  function addItem() {
+    setListItems([
+      {
+        title: newTitle,
+        id: `${Math.random()}`,
+        done: false,
+      },
+      ...listItems,
+    ])
+  }
   return (
     <div>
+      <input value={newTitle} onChange={e => setNewTitle(e.target.value)} ></input>{' '}<button onClick={addItem}>add</button>
       <ul>
         {listItems.map((listItem, index) => (
           <li key={listItem.id}>{ listItem.title } <input type="checkbox" checked={listItem.done} onChange={e => checkItem(e, index)} /></li>
