@@ -1,4 +1,4 @@
-import React, { useId, useState } from 'react'
+import React, { useState } from 'react'
 
 interface ListItem {
   title: string
@@ -10,30 +10,26 @@ export default function TodoList() {
   const [listItems, setListItems] = useState<ListItem[]>([{
     title: '吃饭',
     done: false,
-    id: useId(),
+    id: `${Math.random()}`,
   },
   {
     title: '睡觉',
-    done: true,
-    id: useId(),
+    done: false,
+    id: `${Math.random()}`,
   },
   {
     title: '打豆豆',
     done: false,
-    id: useId(),
+    id: `${Math.random()}`,
   }])
 
-  function checkItem(e: React.ChangeEvent<HTMLInputElement>, index: number) {
-    setListItems(() => {
-      return listItems.map((item, i) => {
-        if (i === index) {
-          item.id = `${Math.random()}` // 排除key的影响
-          item.done = !item.done
-        }
-        return item
-      })
-    })
-    console.log(listItems)
+  function checkItem(e: React.ChangeEvent<HTMLInputElement>, checekedItem: ListItem) {
+    setListItems(state => state.map((item) => {
+      console.log(e.target)
+      if (item.id === checekedItem.id)
+        item.done = !item.done
+      return item
+    }))
   }
 
   const [newTitle, setNewTitle] = useState('')
@@ -49,12 +45,14 @@ export default function TodoList() {
   }
   return (
     <div>
-      <input value={newTitle} onChange={e => setNewTitle(e.target.value)} ></input>{' '}<button onClick={addItem}>add</button>
-      <ul>
-        {listItems.map((listItem, index) => (
-          <li key={listItem.id}>{ listItem.title } <input type="checkbox" checked={listItem.done} onChange={e => checkItem(e, index)} /></li>
-        ))}
-      </ul>
+      <form >
+        <input value={newTitle} onChange={e => setNewTitle(e.target.value)} ></input>{' '}<button onClick={addItem}>add</button>
+        <ul>
+          {listItems.map(listItem => (
+            <li key={listItem.id}>{ listItem.title } <input type="checkbox" value={listItem.id} checked={listItem.done} onChange={e => checkItem(e, listItem)} /></li>
+          ))}
+        </ul>
+      </form>
     </div>
   )
 }

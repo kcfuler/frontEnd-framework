@@ -5,7 +5,6 @@ import { formatTime } from '../../utils/util'
 Page({
   data: {
     logs: [],
-    testText:'我恁爹'
   },
   onLoad() {
     this.setData({
@@ -17,9 +16,4 @@ Page({
       }),
     })
   },
-  clickMe(){
-    this.setData({
-      testText: '点你爹没用'
-    })
-  }
 })
