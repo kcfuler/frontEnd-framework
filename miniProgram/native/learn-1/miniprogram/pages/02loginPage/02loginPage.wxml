@@ -1,9 +1,9 @@
 <!--pages/02loginPage/02loginPage.wxml-->
 <view>
-  <swiper>
+  <swiper circular autoplay indicator-dots="true" interval="3000">
     <block wx:for="{{banners}}" wx:key="acm">
-      <swiper-item>
-        <image src="{{item.image}}"/>
+      <swiper-item >
+        <image mode="widthFix" src="{{item.image}}"/>
       </swiper-item>
     </block>
   </swiper>

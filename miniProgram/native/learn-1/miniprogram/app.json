@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/01App/01App",
-    "pages/02loginPage/02loginPage"
+    "pages/02loginPage/02loginPage",
+    "pages/03CommonComponents/03CommonComponnets"
   ],
   "window": {
     "backgroundTextStyle": "dark",

@@ -1,1 +1,4 @@
 /* pages/02loginPage/02loginPage.wxss */
+image {
+  width: 100%;
+}
