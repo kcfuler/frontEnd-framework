@@ -1,2 +1,10 @@
 <!--pages/02loginPage/02loginPage.wxml-->
-<text>pages/02loginPage/02loginPage.wxml</text>
+<view>
+  <swiper>
+    <block wx:for="{{banners}}" wx:key="acm">
+      <swiper-item>
+        <image src="{{item.image}}"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

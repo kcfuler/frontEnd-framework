@@ -2,8 +2,8 @@
 App<IAppOption>({
   globalData: {}, // 全局共享数据
   // 小程序启动时的钩子函数
-  onLaunch(options) {
-    console.log(options);
+  onLaunch() {
+    // console.log(options);
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
