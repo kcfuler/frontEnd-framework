@@ -1,4 +1,4 @@
-// pages/test/test.ts
+// pages/02loginPage/02loginPage.ts
 Page({
 
   /**

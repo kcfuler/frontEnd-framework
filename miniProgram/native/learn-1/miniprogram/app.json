@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test"
+    "pages/01App/01App",
+    "pages/02loginPage/02loginPage"
   ],
   "window": {
     "backgroundTextStyle": "dark",
