@@ -1,11 +1,12 @@
 <view>
-  <block>
+  <block >
     <button 
     type="primary" 
     wx:for="{{pathList}}" 
     wx:key="item"
     data-item="{{item}}"
     bindtap="handleButtonTap"
+    class="btn"
     >
     {{item.name}}
     </button>

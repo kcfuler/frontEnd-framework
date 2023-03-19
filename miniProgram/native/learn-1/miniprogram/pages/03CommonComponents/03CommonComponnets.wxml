@@ -1,2 +1,15 @@
 <!--pages/03CommonComponents/03CommonComponnets.wxml-->
-<text>pages/03CommonComponents/03CommonComponnets.wxml</text>
+
+<!-- 按钮基本使用过程 -->
+<button type="default" size="mini">按钮</button>
+<button type="primary" size="mini">按钮</button>
+<button type="warn" size="mini">按钮</button>
+<button plain size="mini"> plain</button>
+<button size="mini" loading> loading</button>
+<button size="mini">hoverclass</button>
+<view></view>
+<!-- 获取用户信息 -->
+<button open-type="getUserInfo" size="mini" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<!-- text组件是行内元素 -->
+<text user-select decode>我恁爹 &gt; </text>
+<text>hhahah</text>

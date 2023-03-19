@@ -24,7 +24,7 @@ export default function TodoList() {
   }])
 
   function checkItem(e: React.ChangeEvent<HTMLInputElement>, checekedItem: ListItem) {
-    setListItems(state => state.map((item) => {
+    setListItems(listItems.map((item) => {
       console.log(e.target)
       if (item.id === checekedItem.id)
         item.done = !item.done
