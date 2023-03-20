@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/01App/01App",
     "pages/02loginPage/02loginPage",
-    "pages/03CommonComponents/03CommonComponnets"
+    "pages/03CommonComponents/03CommonComponnets",
+    "pages/07components/07components"
   ],
   "window": {
     "backgroundTextStyle": "dark",
