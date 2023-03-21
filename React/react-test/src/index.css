@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-btn {
-  background-color: skyblue;
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
 }
