@@ -21,6 +21,7 @@ declare module '@vue/runtime-core' {
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
     ElUpload: typeof import('element-plus/es')['ElUpload']
     NavTd: typeof import('./src/components/common/Nav/Nav-td.vue')['default']
+    OdinFooter: typeof import('./src/components/common/Footer/OdinFooter.vue')['default']
     PathInput: typeof import('./src/components/common/Nav/helpers/PathInput.vue')['default']
     QuestionSquare: typeof import('./src/components/draft/QuestionSquare.vue')['default']
     Temp: typeof import("./src/components/draft/QuestionSquare.vue")["default"]
